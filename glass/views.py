@@ -7,7 +7,7 @@ from django.shortcuts import render_to_response,redirect
 
 def home(request):
     hola="here"
-    nombrep="Elije lo de David Cortez es gallo"
+    nombrep="Vivimos para servirte"
     compania = "Master auto Glass"
     c = {'hola':hola,'nombre':nombrep,'compa':compania,}
     return render_to_response('home.html',c)
