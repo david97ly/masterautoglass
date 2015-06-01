@@ -26,7 +26,7 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-MEDIA_URL = '/media/'
+MEDIA_URL = '/glass/media/'
 
 # Application definition
 
