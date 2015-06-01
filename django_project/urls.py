@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-
+from django .conf import settings
 from django.contrib import admin
 admin.autodiscover()
 
@@ -11,5 +11,6 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^servicios', 'glass.views.servicios', name='servicios'),
     url(r'^detalleservice', 'glass.views.detalleservice', name='detalleservice'),
+    url(r'^media/(?P<path>.*)$','glass.views.static.serve',{'document_root':settings.MEDIA_ROOT}),
     
 )

@@ -25,8 +25,9 @@ DEBUG = True
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
+MEDIA_ROOT= '/home/django/django_project/glass/media/'
+MEDIA_URL = '/media/'
 
-MEDIA_URL = '/glass/media/'
 
 # Application definition
 
