@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 class Fotos(models.Model):
 	nombre = models.CharField(max_length=500)
-	ruta = models.ImageField(upload_to='fotos')
+	ruta = models.ImageField(upload_to='media')
 
 class Slide(models.Model):
 	foto = models.ForeignKey(Fotos)
