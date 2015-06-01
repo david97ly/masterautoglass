@@ -25,7 +25,7 @@ DEBUG = True
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
-MEDIA_ROOT= '/glass/media/'
+#MEDIA_ROOT= '/glass/media/'
 MEDIA_URL = '/media/'
 
 
