@@ -24,7 +24,7 @@ def detalleservice(request):
     return render_to_response('detalleservices.html',c)
 
 
-def detalleservice(request):
+def contacto(request):
     titulo = "Contactenos"
     c = {'titulo': titulo}
     return render_to_response('contacto.html',c)
