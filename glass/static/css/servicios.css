@@ -41,7 +41,9 @@
               height: 50px;
             }
            
-           
+           body{
+             background: #ff511e;
+           }
 
              #menus{
                margin-right: 254px;
