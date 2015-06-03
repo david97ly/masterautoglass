@@ -12,6 +12,9 @@ urlpatterns = patterns('',
     url(r'^servicios', 'glass.views.servicios', name='servicios'),
     url(r'^detalleservice', 'glass.views.detalleservice', name='detalleservice'),
     url(r'^contacto', 'glass.views.contacto', name='contacto'),
+    url(r'^fotos', 'glass.views.fotos', name='fotos'),
+    url(r'^quienes', 'glass.views.quienes', name='quines'),
+    url(r'^ubicacion', 'glass.views.ubicacion', name='ubicacion'),
 
   #  url(r'^media/(?P<path>.*)$','django.views.static.serve',{'document_root':'/home/'}),
     

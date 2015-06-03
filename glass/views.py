@@ -28,3 +28,24 @@ def contacto(request):
     titulo = "Contactenos"
     c = {'titulo': titulo}
     return render_to_response('contacto.html',c)
+    
+    
+def fotos(request):
+    titulo = "Galeria de fotos"
+    c = {'titulo': titulo}
+    return render_to_response('fotos.html',c)
+    
+    
+def quienes(request):
+    titulo = "Quienes somos"
+    c = {'titulo': titulo}
+    return render_to_response('quienes.html',c)
+
+
+
+def ubicacion(request):
+    titulo = "Nuestra Ubicacion"
+    c = {'titulo': titulo}
+    return render_to_response('ubicacion.html',c)
+    
+    
