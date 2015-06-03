@@ -57,8 +57,10 @@
 /* Smartphones (landscape) ----------- */
 @media  (min-width : 321px) {
         #menus{
-              margin-right: 220px;
+              position: fixed;
+              margin-left: 0px;
             }
+       
  body{
              background: red;
            }
