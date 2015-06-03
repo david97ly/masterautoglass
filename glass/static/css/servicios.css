@@ -41,12 +41,10 @@
               height: 50px;
             }
            
-            body{
-              background: #0288d1;
-            }
+           
 
              #menus{
-               margin-left: -120px;
+               margin-right: 254px;
                padding: 0px;
              }
       }
