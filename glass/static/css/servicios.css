@@ -40,41 +40,12 @@
               width: 250px;
               height: 50px;
             }
-           
-          
+           #menus{
+              margin-right: 120px;
+            }
             
       }
 
-/* Smartphones (portrait) ----------- */
-
-@media (max-width : 340px) {
-           body{
-             background: black;
-           }
-
-}
-
-/* Smartphones (landscape) ----------- */
-@media  (min-width : 321px) {
-        #menus{
-              position: fixed;
-              background: black; 
-              margin-left: 0px;
-            }
-       
- body{
-             background: red;
-           }
-}
-
-
-/* iPads (landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-   background: black;
-}
 
    
 
