@@ -33,7 +33,7 @@
 
         @media (max-width: 768px) {
        ul>li a{
-              font-size:20px;
+              font-size:18px;
             }
             #imglogo{
               margin-left: -0px;
@@ -41,11 +41,34 @@
               height: 50px;
             }
            
-          #menus{
-              margin-right: 120px;
-            }
+          
             
       }
+
+/* Smartphones (portrait) ----------- */
+
+@media (max-width : 320px) {
+           body{
+             background: #ff511e;
+           }
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media  (min-width : 321px) {
+ body{
+             background: red;
+           }
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+   background: black;
+}
 
    
 
