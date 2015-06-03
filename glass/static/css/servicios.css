@@ -41,7 +41,7 @@
        @media (max-width: 992px) {
         
          #menus{
-              margin-right: -120px;
+              margin-right: 120px;
             }
                .container-relev{
       padding-left: 80px;
