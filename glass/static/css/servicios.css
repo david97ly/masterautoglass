@@ -41,16 +41,25 @@
               height: 50px;
             }
            
+          
+            
+      }
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width : 320px) {
            body{
              background: #ff511e;
            }
 
-             #menus{
-               margin-right: 254px;
-               padding: 0px;
-             }
-      }
+}
 
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+ body{
+             background: red;
+           }
+}
 
    
 
