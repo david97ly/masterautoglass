@@ -54,3 +54,8 @@ def login(request):
     return render_to_response('login.html',c)
     
     
+def conf(request):
+    titulo = "Configuraciones"
+    c = {'titulo': titulo}
+    return render_to_response('cofiguraciones.html',c)
+    
