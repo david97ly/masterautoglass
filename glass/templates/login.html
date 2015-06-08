@@ -18,7 +18,7 @@
     <body>
         
         <div class="jumbotron boxlogin">
-          <form method="POST" name="flogin" id="flogin">
+          <form method="POST" name="flogin" id="flogin">{% csrf token %}
             <label>User Name:</label></label>
             <input type="text" name="username" id="username" class="form-control">
             <label>Password:</label>  
