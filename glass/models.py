@@ -9,7 +9,7 @@ class Slide(models.Model):
 	foto = models.ForeignKey(Fotos)
 	mensaje = models.CharField(max_length=500)
 	submensaje = models.CharField(max_length=500)
-	valida = models.CharField(max_length=10)
+	#valida = models.CharField(max_length=10)
 	
 class Mensajeb(models.Model):
 	mensaje = models.CharField(max_length=500)
