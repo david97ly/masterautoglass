@@ -48,4 +48,9 @@ def ubicacion(request):
     c = {'titulo': titulo}
     return render_to_response('ubicacion.html',c)
     
+def login(request):
+    titulo = "Login"
+    c = {'titulo': titulo}
+    return render_to_response('login.html',c)
+    
     
