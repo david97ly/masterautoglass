@@ -30,7 +30,7 @@ MEDIA_URL = '/media/'
 
 
 # Application definition
-from south.db import db
+#from south.db import db
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
@@ -39,7 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'glass',
-    'sauth',
+    #'sauth',
 )
 
 MIDDLEWARE_CLASSES = (
